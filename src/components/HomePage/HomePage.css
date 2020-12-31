@@ -1,0 +1,61 @@
+/* Messages.js */
+.messages {
+  max-width: 100% !important;
+  margin: 0 !important;
+  height: 73vh;
+  overflow-y: scroll;
+}
+
+.menu {
+  padding-bottom: 2em;
+}
+
+/* MessageForm.js */
+.message__form {
+  position: fixed !important;
+  bottom: 1em;
+  margin-left: 335px !important;
+  left: 0;
+  right: 1em;
+  z-index: 200;
+  display: flex;
+  justify-content: space-between;
+  padding: 21px !important;
+  flex-direction: column !important;
+}
+
+.message__form div:first-child {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  width: 100%;
+}
+
+.message__form .buttons {
+  width: 40%;
+  margin-left: 12px !important;
+}
+
+.message__form .input {
+  width: 80%;
+}
+
+/* Message.js */
+.message__self {
+  border-left: 2px solid orange;
+  padding-left: 8px;
+}
+
+.message__image {
+  padding: 1em;
+}
+
+.file__modal {
+  background-color: #ffffff !important;
+  border-radius: 4px;
+}
+
+.file__modal > .header {
+  color: #000000 !important;
+}
